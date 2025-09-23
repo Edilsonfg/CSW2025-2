@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Righteous&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(135deg, #5e79f5, #d1e8e2); 
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 0;
+      margin: 0;
+}
+
+
+.cabecalho {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      padding: 20px 40px;
+      background-color: rgba(0,0,0,0.05);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+ .cabecalho-menu-item {
+      color: #333;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px 10px;
+    
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: black;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+}
+
+.conteudo-principal-imagem {
+    width: 25rem;
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 310px;
+
+}
+
+.conteudo-secundario-titulo {
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+    color: black;
+}
+
+.conteudo-secundario-paragrafo {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    max-width: 800px;
+    color: #333;
+}
+
+
+.rodape-imagem {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagem-central {
+  width: 200px;       
+  height: 200px;      
+  border-radius: 50%; 
+  object-fit: cover;  
+}
